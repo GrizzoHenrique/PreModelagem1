@@ -20,11 +20,28 @@
 3. **Padronização e limpeza**: Renomeação de colunas para manter um padrão coeso de nomenclatura
 
 ### Tecnologias Utilizadas:
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat&logoColor=white)
+| Tecnologia | Versão | Propósito |
+|-----------|--------|----------|
+| ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | 3.7+ | Linguagem principal |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) | Latest | Manipulação de dados |
+| ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?logo=seaborn&logoColor=white) | Latest | Gráficos estatísticos |
 
-### Como Executar:
-1. Clone o repositório
-2. Cerfique de ter o arquivo CHURN_TELECON_MOD08_TAREFA.csv no diretório correto.
-3. Execute o notebook rofissao Cientista de Dados M14 Pratique (2).ipynb.
+##  Como Executar
+
+### Pré-requisitos
+- Python 3.7+
+- pip ou conda
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/GrizzoHenrique/PreModelagem1.git
+cd PreModelagem1
+
+# Crie um ambiente virtual (recomendado)
+python -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+
+# Instale as dependências
+pip install -r requirements.txt
